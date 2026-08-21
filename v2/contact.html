@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Contact și programări — Cabinet psihologic Elena Andrei. Psihoterapie individuală, de cuplu, familială și pentru copii."
+    />
+
+    <title>Contact | Cabinet psihologic Elena Andrei</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a
+          href="index.html"
+          class="brand"
+          aria-label="Cabinet psihologic Elena Andrei - Acasă"
+        >
+          <span class="brand-name">Elena Andrei</span>
+          <span class="brand-subtitle">Cabinet psihologic</span>
+        </a>
+
+        <nav
+          class="site-navigation"
+          id="site-navigation"
+          aria-label="Navigație principală"
+        >
+          <a href="index.html">Acasă</a>
+          <a href="despre_noi.html">Povestea mea</a>
+          <a href="servicii.html">Servicii</a>
+          <a href="articole.html">Articole</a>
+          <a href="workshopuri.html">Workshopuri</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+        <a href="contact.html" class="header-cta">Contactează-mă</a>
+
+        <button
+          type="button"
+          class="menu-toggle"
+          aria-label="Deschide meniul"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- PAGE HERO -->
+      <section class="page-hero">
+        <div class="container page-hero-content">
+          <span class="eyebrow">Contact</span>
+
+          <h1>Hai să vorbim</h1>
+
+          <p>
+            Dacă ai o întrebare, vrei să afli mai multe despre serviciile
+            oferite sau dorești să discutăm despre o posibilă programare, mă
+            poți contacta.
+          </p>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section">
+        <div class="container contact-grid">
+          <!-- FORM -->
+          <div class="contact-form-wrapper">
+            <div class="section-heading section-heading-left">
+              <span class="eyebrow">Contact și programări</span>
+
+              <h2>Cu ce te pot ajuta?</h2>
+
+              <p>
+                Completează formularul dacă vrei să îmi adresezi o întrebare, să
+                afli mai multe despre serviciile oferite sau să discutăm despre
+                posibilitatea unei programări.
+              </p>
+            </div>
+
+            <form class="appointment-form" action="#" method="post">
+              <!-- NAME -->
+              <div class="form-group">
+                <label for="nume">Nume și prenume</label>
+
+                <input
+                  type="text"
+                  id="nume"
+                  name="nume"
+                  autocomplete="name"
+                  required
+                />
+              </div>
+
+              <!-- EMAIL + PHONE -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email</label>
+
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="email"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="telefon">Telefon</label>
+
+                  <input
+                    type="tel"
+                    id="telefon"
+                    name="telefon"
+                    autocomplete="tel"
+                  />
+                </div>
+              </div>
+
+              <!-- DATE + TIME -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="data">
+                    Data preferată
+                    <span>(opțional)</span>
+                  </label>
+
+                  <input type="date" id="data" name="data" />
+                </div>
+
+                <div class="form-group">
+                  <label for="interval">
+                    Interval preferat
+                    <span>(opțional)</span>
+                  </label>
+
+                  <select id="interval" name="interval">
+                    <option value="">Alege un interval</option>
+                    <option value="dimineata">Dimineața</option>
+                    <option value="pranz">Prânz</option>
+                    <option value="dupa-amiaza">După-amiaza</option>
+                    <option value="seara">Seara</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- MESSAGE -->
+              <div class="form-group">
+                <label for="mesaj">
+                  Mesaj
+                  <span>(opțional)</span>
+                </label>
+
+                <textarea
+                  id="mesaj"
+                  name="mesaj"
+                  rows="5"
+                  placeholder="Dacă dorești, poți lăsa câteva informații generale despre solicitarea ta."
+                ></textarea>
+              </div>
+
+              <!-- SUBMIT -->
+              <button type="submit" class="btn btn-primary">
+                Trimite mesajul
+              </button>
+
+              <p class="form-note">
+                Trimiterea formularului nu reprezintă o confirmare a
+                programării. Vei fi contactat pentru a discuta detaliile și,
+                dacă este cazul, pentru stabilirea datei și orei.
+              </p>
+
+              <p class="form-note">
+                Datele completate sunt utilizate pentru a răspunde solicitării
+                tale și pentru comunicarea legată de aceasta.
+                <a href="confidentialitate.html">
+                  Politica de confidențialitate
+                </a>
+              </p>
+            </form>
+          </div>
+
+          <!-- DIRECT CONTACT -->
+          <aside class="contact-sidebar">
+            <div class="contact-card">
+              <span class="eyebrow">Contact direct</span>
+
+              <h2>Cum mă poți contacta</h2>
+
+              <div class="contact-list">
+                <!-- PHONE -->
+                <a href="tel:+40730183282" class="contact-item">
+                  <span class="contact-icon" aria-hidden="true">↗</span>
+
+                  <span>
+                    <small>Telefon</small>
+                    <strong>0730 183 282</strong>
+                  </span>
+                </a>
+
+                <!-- EMAIL -->
+                <a
+                  href="mailto:elena.andrei@deschidemlumea.ro"
+                  class="contact-item"
+                >
+                  <span class="contact-icon" aria-hidden="true">@</span>
+
+                  <span>
+                    <small>Email</small>
+                    <strong>elena.andrei@deschidemlumea.ro</strong>
+                  </span>
+                </a>
+
+                <!-- ADDRESS -->
+                <div class="contact-item">
+                  <span class="contact-icon" aria-hidden="true">⌖</span>
+
+                  <span>
+                    <small>Adresă</small>
+
+                    <strong>
+                      Hristo Botev nr. 1<br />
+                      Etaj 6, camera 606
+                    </strong>
+                  </span>
+                </div>
+              </div>
+
+              <!-- WHATSAPP -->
+              <a
+                href="https://wa.me/40730183282"
+                class="whatsapp-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contactează-mă pe WhatsApp
+                <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- LOCATION -->
+      <section class="section map-section">
+        <div class="container">
+          <div class="location-card">
+            <div class="location-content">
+              <span class="eyebrow">Locație</span>
+
+              <h2>Unde ne găsești</h2>
+
+              <p>
+                Cabinetul se află pe strada Hristo Botev nr. 1, la etajul 6,
+                camera 606, în București.
+              </p>
+
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Hristo+Botev+nr+1+Bucuresti"
+                class="btn btn-secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Deschide locația în Google Maps
+                <span aria-hidden="true">→</span>
+              </a>
+            </div>
+
+            <div class="location-visual" aria-hidden="true">
+              <span class="location-icon">⌖</span>
+
+              <span class="location-label">
+                Hristo Botev nr. 1<br />
+                Etaj 6 · Camera 606
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a href="index.html" class="footer-brand"> Elena Andrei </a>
+
+          <p>Cabinet psihologic</p>
+        </div>
+
+        <div class="footer-contact">
+          <a href="tel:+40730183282"> 0730 183 282 </a>
+
+          <a href="mailto:elena.andrei@deschidemlumea.ro">
+            elena.andrei@deschidemlumea.ro
+          </a>
+
+          <span> Hristo Botev nr. 1, etaj 6, camera 606 </span>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 Cabinet psihologic Elena Andrei. Toate drepturile
+            rezervate.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

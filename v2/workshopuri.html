@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Workshopuri pentru părinți, copii și adolescenți între 10 și 18 ani – Elena Andrei."
+    />
+
+    <title>Workshopuri | Elena Andrei – Psihoterapie</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a
+          href="index.html"
+          class="brand"
+          aria-label="Cabinet psihologic Elena Andrei - Acasă"
+        >
+          <span class="brand-name">Elena Andrei</span>
+          <span class="brand-subtitle">Cabinet psihologic</span>
+        </a>
+
+        <nav
+          class="site-navigation"
+          id="site-navigation"
+          aria-label="Navigație principală"
+        >
+          <a href="index.html">Acasă</a>
+          <a href="despre_noi.html">Povestea mea</a>
+          <a href="servicii.html">Servicii</a>
+          <a href="articole.html">Articole</a>
+          <a href="workshopuri.html" class="active">Workshopuri</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="contact.html" class="header-cta">Programează-te</a>
+        <button
+          type="button"
+          class="menu-toggle"
+          aria-label="Deschide meniul"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <main>
+        <!-- PAGE HERO -->
+        <section class="page-hero workshop-hero">
+          <div class="container page-hero-content">
+            <span class="eyebrow">Workshopuri</span>
+
+            <h1>Întâlniri pentru a înțelege, explora și crește împreună.</h1>
+
+            <p>
+              Workshopuri create pentru părinți, copii și adolescenți, în jurul
+              unor teme relevante pentru viața de zi cu zi.
+            </p>
+          </div>
+        </section>
+
+        <!-- WORKSHOP CATEGORIES -->
+        <section class="section workshop-selection">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow">Alege categoria</span>
+
+              <h2>Ce workshopuri te interesează?</h2>
+
+              <p>
+                Alege categoria potrivită pentru a vedea workshopurile
+                disponibile.
+              </p>
+            </div>
+
+            <div class="workshop-category-grid">
+              <button
+                type="button"
+                class="workshop-category active"
+                data-workshop-filter="parinti"
+              >
+                <span class="workshop-category-number">01</span>
+
+                <span class="workshop-category-label"> Pentru părinți </span>
+
+                <h3>Relația cu copilul, limite și adolescență</h3>
+
+                <span class="workshop-category-link">
+                  Vezi workshopurile
+                  <span aria-hidden="true">→</span>
+                </span>
+              </button>
+
+              <button
+                type="button"
+                class="workshop-category"
+                data-workshop-filter="adolescenti"
+              >
+                <span class="workshop-category-number">02</span>
+
+                <span class="workshop-category-label">
+                  Copii și adolescenți · 10–18 ani
+                </span>
+
+                <h3>Emoții, relații, imagine de sine și presiune socială</h3>
+
+                <span class="workshop-category-link">
+                  Vezi workshopurile
+                  <span aria-hidden="true">→</span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- WORKSHOPS -->
+        <section class="section section-soft workshop-list-section">
+          <div class="container">
+            <div class="section-heading section-heading-left">
+              <span class="eyebrow">Workshopuri disponibile</span>
+
+              <h2 id="workshop-list-title">Pentru părinți</h2>
+
+              <p id="workshop-list-description">
+                Întâlniri în jurul unor teme care apar frecvent în relația
+                dintre părinte și copil.
+              </p>
+            </div>
+
+            <!-- PĂRINȚI -->
+            <div
+              class="workshops-grid workshop-group active"
+              data-workshop-group="parinti"
+            >
+              <article class="workshop-card">
+                <div class="workshop-card-header">
+                  <span class="workshop-tag">Părinți</span>
+                </div>
+
+                <h3>Limite fără ruptură</h3>
+
+                <p>
+                  Despre cum putem pune limite clare fără să pierdem conexiunea
+                  cu copilul.
+                </p>
+
+                <a href="contact.html" class="article-link">
+                  Cere detalii
+                  <span aria-hidden="true">→</span>
+                </a>
+              </article>
+
+              <article class="workshop-card">
+                <div class="workshop-card-header">
+                  <span class="workshop-tag">Părinți</span>
+                </div>
+
+                <h3>Când copilul are emoții mari</h3>
+
+                <p>
+                  Despre emoții, reglare și felul în care putem rămâne alături
+                  de copil în momentele dificile.
+                </p>
+
+                <a href="contact.html" class="article-link">
+                  Cere detalii
+                  <span aria-hidden="true">→</span>
+                </a>
+              </article>
+
+              <article class="workshop-card">
+                <div class="workshop-card-header">
+                  <span class="workshop-tag">Părinți</span>
+                </div>
+
+                <h3>Adolescența: cum rămânem aproape?</h3>
+
+                <p>
+                  Despre autonomie, comunicare și relația cu adolescentul atunci
+                  când lucrurile devin mai dificile.
+                </p>
+
+                <a href="contact.html" class="article-link">
+                  Cere detalii
+                  <span aria-hidden="true">→</span>
+                </a>
+              </article>
+            </div>
+
+            <!-- COPII / ADOLESCENȚI -->
+            <div
+              class="workshops-grid workshop-group"
+              data-workshop-group="adolescenti"
+              hidden
+            >
+              <article class="workshop-card workshop-card-youth">
+                <div class="workshop-card-header">
+                  <span class="workshop-tag">10–13 ani</span>
+                </div>
+
+                <h3>Ce fac cu emoțiile mele?</h3>
+
+                <p>
+                  Un atelier despre recunoașterea și exprimarea emoțiilor
+                  într-un mod potrivit vârstei.
+                </p>
+
+                <a href="contact.html" class="article-link">
+                  Cere detalii
+                  <span aria-hidden="true">→</span>
+                </a>
+              </article>
+
+              <article class="workshop-card workshop-card-youth">
+                <div class="workshop-card-header">
+                  <span class="workshop-tag">14–18 ani</span>
+                </div>
+
+                <h3>Eu, ceilalți și presiunea de a fi suficient</h3>
+
+                <p>
+                  Despre comparație, imagine de sine, social media și
+                  așteptările celorlalți.
+                </p>
+
+                <a href="contact.html" class="article-link">
+                  Cere detalii
+                  <span aria-hidden="true">→</span>
+                </a>
+              </article>
+
+              <article class="workshop-card workshop-card-youth">
+                <div class="workshop-card-header">
+                  <span class="workshop-tag">14–18 ani</span>
+                </div>
+
+                <h3>Relații, prietenii și limite</h3>
+
+                <p>
+                  Despre relații sănătoase, limite personale și comunicarea
+                  nevoilor.
+                </p>
+
+                <a href="contact.html" class="article-link">
+                  Cere detalii
+                  <span aria-hidden="true">→</span>
+                </a>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section">
+          <div class="container cta-content">
+            <span class="eyebrow">Workshopuri</span>
+
+            <h2>Vrei să afli mai multe?</h2>
+
+            <p>
+              Contactează-mă pentru informații despre workshopurile disponibile
+              și despre următoarele întâlniri.
+            </p>
+
+            <a href="contact.html" class="btn btn-primary"> Cere detalii </a>
+          </div>
+        </section>
+      </main>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a href="index.html" class="footer-brand">Elena Andrei</a>
+          <p>Cabinet psihologic</p>
+        </div>
+
+        <div class="footer-contact">
+          <a href="tel:+40730183282">0730 183 282</a>
+
+          <a href="mailto:elena.andrei@deschidemlumea.ro">
+            elena.andrei@deschidemlumea.ro
+          </a>
+
+          <span>Hristo Botev, nr. 1, etaj 6, camera 606</span>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 Cabinet psihologic Elena Andrei. Toate drepturile
+            rezervate.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
