@@ -13,7 +13,7 @@
   --color-surface: #ffffff;
   --color-surface-alt: #f7f4fb;
 
-  --color-primary: #8174a0;
+  --color-primary: #63547e;
   --color-primary-dark: #51456f;
   --color-primary-deep: #302941;
 
@@ -26,7 +26,7 @@
 
   --color-text: #28242f;
   --color-text-soft: #6b6572;
-  --color-text-muted: #898390;
+  --color-text-muted: #655e6c;
 
   --color-border: rgba(81, 69, 111, 0.12);
   --color-border-strong: rgba(81, 69, 111, 0.22);
@@ -3735,3 +3735,69 @@ textarea:focus-visible {
     border-radius: var(--radius-lg);
   }
 }
+
+
+/* Ajustări temporare: portret complet și pagini inactive */
+.split-section > .visual-panel {
+  width: 100%;
+  max-width: 520px;
+  aspect-ratio: 798 / 1046;
+  min-height: 0;
+  justify-self: center;
+  background: #eeeaf0;
+}
+.split-section > .visual-panel .profile-image {
+  object-fit: contain;
+  object-position: center center;
+}
+.nav-disabled {
+  opacity: .42;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.privacy-consent{display:flex;align-items:flex-start;gap:.6rem;font-size:.9rem;line-height:1.5}.privacy-consent input{margin-top:.25rem;flex-shrink:0}#form-error{color:#a32929}
+
+/* Corectie cabinet: imagine intreaga, fara taiere sau latime excesiva pe mobil */
+.cabinet-image-wrapper { width: 100%; min-width: 0; box-sizing: border-box; overflow: hidden; }
+.cabinet-image-wrapper picture { display: block; width: 100%; max-width: 100%; }
+.cabinet-image-wrapper .cabinet-image { display: block; width: 100%; max-width: 100%; height: auto; aspect-ratio: auto; object-fit: contain; object-position: center; }
+@media (max-width: 720px) { .cabinet-image-wrapper { padding: 6px; } .cabinet-image-wrapper .cabinet-image { border-radius: 14px; } }
+
+/* GDPR consent: override generic .form-group input styles without affecting other fields */
+.form-group .privacy-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  width: 100%;
+  min-width: 0;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  font-weight: 500;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+.form-group .privacy-consent input[type="checkbox"] {
+  appearance: auto;
+  -webkit-appearance: checkbox;
+  box-sizing: border-box;
+  display: inline-block;
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  min-height: 18px;
+  padding: 0;
+  margin: 0.18rem 0 0;
+  border-radius: 3px;
+  box-shadow: none;
+  accent-color: var(--color-primary);
+  vertical-align: top;
+}
+.form-group .privacy-consent a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Keep all consent text in a single flex child; avoid splitting words into columns. */
+.form-group .privacy-consent .privacy-consent-text { display: block; flex: 1 1 auto; min-width: 0; overflow-wrap: normal; word-break: normal; }

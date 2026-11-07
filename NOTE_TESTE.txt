@@ -1,0 +1,1 @@
+Optimizări: WebP cu fallback JPEG, culori primare și text muted mai închise, hash CSP JSON-LD recalculat. Nu sunt scoruri noi măsurate. Verificați manual contrastul rămas, aspectul mobil, consola CSP și trimiterea FormSubmit. Nu încărcați pe GitHub înainte de teste.

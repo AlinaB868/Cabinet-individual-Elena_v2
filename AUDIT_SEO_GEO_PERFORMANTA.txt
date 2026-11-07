@@ -1,0 +1,18 @@
+AUDIT PRELIMINAR SEO / GEO / SECURITATE — 2026-11-07
+
+MODIFICĂRI:
+- canonical + Open Graph title/URL pe paginile publice
+- robots.txt și sitemap.xml pentru paginile publice
+- noindex pe Articole și Workshopuri, păstrate în sursă pentru reactivare
+- loading=lazy și decoding=async pentru imagini (verificați manual LCP)
+- păstrată politica CSP și validarea formularului
+
+OBSERVAȚII:
+- Fără Lighthouse/PageSpeed rulat: nu există scor de performanță măsurat.
+- Fără test în browser real: verificarea responsive și funcționarea CSP/FormSubmit sunt încă necesare.
+- Fără date structurate LocalBusiness: nu avem încă adresă/localitate confirmată și date profesionale validate.
+- Nu s-au inventat calificări, recenzii, localități sau prețuri.
+- Meta CSP nu poate înlocui toate antetele HTTP; GitHub Pages nu aplică _headers.
+- Verificați profilul Google Business, Search Console, Bing Webmaster Tools și rezultatele Rich Results Test după publicare.
+- Pentru GEO: conținut factual clar despre specializări, calificări, oraș, programări și surse verificabile; nicio garanție de recomandare AI.
+- FormSubmit implică prelucrarea datelor de un terț: verificați GDPR și evitarea datelor medicale sensibile.

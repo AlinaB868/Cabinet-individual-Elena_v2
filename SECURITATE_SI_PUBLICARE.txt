@@ -1,0 +1,3 @@
+Protecții adăugate: validare în browser, limite de lungime, respingere caractere de control, informare confidențialitate obligatorie, rel=noopener noreferrer. CAPTCHA și honeypot FormSubmit păstrate.
+
+LIMITĂRI: validarea în browser poate fi ocolită și nu garantează protecție XSS. Furnizorul FormSubmit controlează validarea și filtrarea pe server. Pentru HTTPS, CSP, HSTS și alte antete de securitate trebuie configurat hostingul. Nu inserați mesaje primite ca HTML. Verificați condițiile GDPR ale furnizorului și evitați datele medicale/sensibile. Testați totul înainte de publicare.

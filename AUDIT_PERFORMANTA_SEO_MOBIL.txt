@@ -1,0 +1,25 @@
+AUDIT PRELIMINAR — PERFORMANȚĂ, SEO, MOBIL
+Sursa: site_elena_actualizat_2026-11-07.zip
+
+VERIFICĂRI STATICE
+- 3 imagini JPEG: Elena.jpeg 798x1046 (~105 KB), Elena2.jpeg 872x975 (~143 KB), Cabinet.jpeg 1600x1200 (~173 KB).
+- style.css ~64 KB, script.js ~4 KB (necomprimate).
+- index.html și contact.html conțin viewport mobil și titluri.
+- sitemap.xml conține paginile publice principale.
+- robots.txt indică sitemap-ul public.
+- CSP este prezentă, dar funcționarea ei în browser nu a fost validată.
+- Formularul are action către FormSubmit; trimiterea nu a fost testată.
+- Am adăugat atribute explicite width/height imaginilor principale unde lipseau, pentru a reduce deplasările de layout (CLS). CSS-ul existent rămâne neschimbat.
+
+NU SUNT ÎNCĂ VERIFICATE
+- Scorurile Lighthouse/PageSpeed mobil și desktop (nu există rezultate măsurate).
+- Comportamentul meniului și al formularului în browser real la 390/768/1440 px.
+- Rezultatele testelor de accesibilitate și Core Web Vitals.
+- Indexarea efectivă de către Google/Bing și validarea live JSON-LD.
+- Livrarea emailului, CAPTCHA, și procesarea server-side a datelor.
+
+URMĂTORII PAȘI
+1. Test în browser local cu DevTools: responsive, Console, Network.
+2. După publicare: PageSpeed Insights mobil/desktop și Rich Results Test.
+3. Verificare Google Search Console și Bing Webmaster Tools.
+4. Verificarea paginilor nepublicate, a confidențialității și a livrării FormSubmit.

@@ -117,3 +117,24 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+// Validare suplimentară în browser; serverul trebuie să valideze separat.
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.querySelector("#secure-contact-form");
+  if (!form) return;
+  const error = document.querySelector("#form-error");
+  form.addEventListener("submit", (event) => {
+    error.hidden = true;
+    error.textContent = "";
+    const name = form.querySelector("#nume").value;
+    const message = form.querySelector("#mesaj").value;
+    const phone = form.querySelector("#telefon").value;
+    const invalid = [name, message, phone].some(value => /[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/.test(value));
+    if (invalid || name.trim().length < 2 || !form.checkValidity()) {
+      event.preventDefault();
+      error.textContent = "Verifică datele introduse și limitele câmpurilor.";
+      error.hidden = false;
+      form.reportValidity();
+    }
+  });
+});

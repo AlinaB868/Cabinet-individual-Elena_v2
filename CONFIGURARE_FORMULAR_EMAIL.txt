@@ -1,0 +1,22 @@
+FORMULAR CONTACT – ELENA ANDREI
+
+Formularul din contact.html este configurat să trimită către:
+elena.andrei@deschidemlumea.ro
+
+Serviciu: FormSubmit (https://formsubmit.co/)
+
+PAȘI DE ACTIVARE
+1. Publică site-ul pe domeniul final (recomandat HTTPS).
+2. Trimite o solicitare de test din formular.
+3. Verifică inboxul și Spam pentru emailul de activare FormSubmit trimis la adresa de mai sus.
+4. Accesează linkul de confirmare primit de titularul adresei.
+5. Retrimite formularul și verifică primirea mesajului, inclusiv Spam.
+
+NOTE
+- Până la confirmarea adresei, livrarea nu este activată.
+- FormSubmit este un serviciu terț; informațiile completate sunt transmise către acesta.
+- Nu colecta prin formular informații clinice sau medicale sensibile.
+- Revizuiește politica de confidențialitate înainte de publicare, pentru a descrie corect procesatorul și transferul datelor.
+- Formularul folosește captcha și un câmp honeypot pentru limitarea spamului.
+- Confirmarea trimiterii este gestionată de FormSubmit, pe o pagină separată.
+- Nu include chei sau parole în fișierele site-ului.

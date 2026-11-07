@@ -1,0 +1,10 @@
+[ ] Verificare locală pe localhost:8000
+[ ] Fotografii și meniu mobil
+[ ] Consimțământ GDPR și aspect formular (fără trimitere până la activare)
+[ ] Consola fără erori relevante; Live Server poate injecta cod blocat de CSP
+[ ] Încarcă FIȘIERELE extrase, nu ZIP-ul, în repository-ul GitHub Pages
+[ ] Confirmă publicarea URL-ului și sitemapului
+[ ] Validează datele structurate (https://validator.schema.org/)
+[ ] Configurează Google Search Console și Bing Webmaster Tools
+[ ] Testează trimiterea emailului după activarea FormSubmit
+[ ] Verifică GDPR cu persoana responsabilă înainte de lansare

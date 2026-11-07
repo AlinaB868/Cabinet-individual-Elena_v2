@@ -1,0 +1,40 @@
+AUDIT SEO / GEO / SECURITATE — versiunea v5 (7 noiembrie 2026)
+
+EFECTUAT ÎN COD
+- Verificat titluri, descrieri, canonical și sitemap.xml.
+- Actualizat JSON-LD ProfessionalService pe paginile publice principale cu telefonul, emailul, aria deservită și limba.
+- Recalculat SHA-256 în meta CSP pentru fiecare bloc JSON-LD modificat; nu s-a adăugat unsafe-inline.
+- Pagini articole/workshopuri rămân în afara sitemapului și cu noindex, nofollow. ATENȚIE: fișierele rămân accesibile direct prin URL; noindex nu le face private.
+- Păstrate optimizările WebP, GDPR, favicon, formularul și stilurile existente.
+
+SEO LOCAL
+- Date publice: Cabinet psihologic Elena Andrei, Str. Hristo Botev nr. 1, etaj 6, camera 606, București.
+- Datele structurate nu garantează un rezultat îmbogățit sau recomandări.
+- Confirmă cu Elena numărul, adresa, denumirea cabinetului și serviciile înainte de publicare.
+- Recomandat: profil Google Business (dacă este eligibil), NAP consecvent, descrieri autentice ale serviciilor, linkuri de la surse relevante.
+
+GEO / AI DISCOVERABILITY
+- Publică informații clare și verificabile: cine oferă serviciile, calificări, locație, servicii, programări, politici.
+- Evită afirmațiile de tip «cel mai bun», recenzii inventate și promisiuni de recomandare în AI.
+- Permite accesul crawlerelor legitime la paginile publice; robots.txt nu este o măsură de securitate.
+
+SEARCH CONSOLE / BING — DUPĂ PUBLICARE
+1. Verifică proprietatea site-ului în Google Search Console (metoda disponibilă pentru GitHub Pages).
+2. Trimite sitemap: https://alinab868.github.io/Cabinet-individual-Elena_v2/sitemap.xml
+3. Folosește URL Inspection pentru index.html, servicii.html, despre_noi.html, contact.html.
+4. Verifică proprietatea în Bing Webmaster Tools (sau importă din Search Console), trimite același sitemap.
+5. Verifică Rich Results Test și validator.schema.org. IndexNow poate fi investigat ulterior; nu e obligatoriu.
+
+SECURITATE ȘI GDPR — DE CONFIRMAT
+- Meta CSP este apărare suplimentară, nu echivalează cu antete HTTP precum HSTS/COOP/X-Frame-Options.
+- GitHub Pages nu oferă control liber asupra tuturor antetelor HTTP.
+- Verifică în DevTools că nu există CSP errors pe server Python și că formularul funcționează.
+- FormSubmit: emailul destinatar trebuie activat de Elena; nu este încă confirmată livrarea.
+- Nu trimite informații medicale în test; verifică acordul de prelucrare și transferul datelor către terț înainte de lansare.
+- Verifică politica de confidențialitate cu operatorul de date și consilier juridic/GDPR dacă e necesar.
+- Nu presupune protecție XSS completă fără revizie de cod și teste.
+
+NU S-A FĂCUT
+- Nu au fost conectate conturi Google/Bing și nu a fost trimis sitemapul.
+- Nu s-a verificat live indexarea sau rezultatul Rich Results Test pentru această versiune nepublicată.
+- Nu s-a activat FormSubmit și nu s-a verificat livrarea emailurilor.

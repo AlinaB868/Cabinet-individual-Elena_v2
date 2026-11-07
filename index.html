@@ -1,17 +1,48 @@
 <!doctype html>
 <html lang="ro">
   <head>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href="https://alinab868.github.io/Cabinet-individual-Elena_v2/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alinab868.github.io/Cabinet-individual-Elena_v2/" />
+    <meta property="og:locale" content="ro_RO" />
     <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'sha256-y9UeAy/Br2U92/cH8WL/wRvnR8nCctSEAhQYDL6bjlQ='; script-src-attr 'none'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action https://formsubmit.co; upgrade-insecure-requests" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta
       name="description"
-      content="Cabinet psihologic Elena Andrei — psihoterapie individuală, de cuplu, familială și pentru copii, în cabinet și online."
+      content="Cabinet psihologic Elena Andrei în București, Strada Hristo Botev nr. 1. Psihoterapie individuală, de cuplu, familială și pentru copii, în cabinet și online."
     />
 
-    <title>Elena Andrei — Psihoterapie</title>
+    <title>Elena Andrei | Cabinet psihologic București</title>
+    <meta property="og:title" content="Elena Andrei | Cabinet psihologic București" />
 
     <link rel="stylesheet" href="style.css" />
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://alinab868.github.io/Cabinet-individual-Elena_v2/#cabinet",
+  "name": "Cabinet psihologic Elena Andrei",
+  "url": "https://alinab868.github.io/Cabinet-individual-Elena_v2/",
+  "description": "Cabinet psihologic în București, cu servicii de psihoterapie.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Strada Hristo Botev nr. 1, etaj 6, camera 606",
+    "addressLocality": "București",
+    "addressCountry": "RO"
+  },
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=Hristo+Botev+1+Bucuresti",
+  "telephone": "+40 730 183 282",
+  "email": "elena.andrei@deschidemlumea.ro",
+  "areaServed": {
+    "@type": "City",
+    "name": "București"
+  },
+  "inLanguage": "ro-RO"
+}
+    </script>
   </head>
 
   <body>
@@ -34,8 +65,10 @@
           <a href="index.html" class="active">Acasă</a>
           <a href="despre_noi.html">Povestea mea</a>
           <a href="servicii.html">Servicii</a>
+          <!-- PAGINI ASCUNSE TEMPORAR. Pentru reactivare, elimină comentariul HTML de mai jos și redirecționările din paginile respective.
           <a href="articole.html">Articole</a>
           <a href="workshopuri.html">Workshopuri</a>
+          -->
           <a href="contact.html">Contact</a>
         </nav>
 
@@ -197,11 +230,14 @@
           </div>
 
           <div class="visual-panel">
-            <img
+            <picture>
+              <source srcset="Elena.webp" type="image/webp" />
+              <img loading="lazy" decoding="async"
               src="Elena.jpeg"
               alt="Elena Andrei – psihoterapeut"
               class="profile-image"
-            />
+             width="798" height="1046" />
+            </picture>
           </div>
         </div>
       </section>
@@ -242,12 +278,15 @@
           </div>
 
           <div class="cabinet-image-wrapper">
-            <img
+            <picture>
+              <source srcset="Cabinet.webp" type="image/webp" />
+              <img
               src="Cabinet.jpeg"
               alt="Interiorul cabinetului psihologic Elena Andrei"
               class="cabinet-image"
               loading="lazy"
-            />
+             width="1600" height="1200" />
+            </picture>
           </div>
         </div>
       </section>

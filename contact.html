@@ -1,17 +1,48 @@
 <!doctype html>
 <html lang="ro">
   <head>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href="https://alinab868.github.io/Cabinet-individual-Elena_v2/contact.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alinab868.github.io/Cabinet-individual-Elena_v2/contact.html" />
+    <meta property="og:locale" content="ro_RO" />
     <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'sha256-y9UeAy/Br2U92/cH8WL/wRvnR8nCctSEAhQYDL6bjlQ='; script-src-attr 'none'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action https://formsubmit.co; upgrade-insecure-requests" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta
       name="description"
-      content="Contact și programări — Cabinet psihologic Elena Andrei. Psihoterapie individuală, de cuplu, familială și pentru copii."
+      content="Contact și programări la Cabinet psihologic Elena Andrei, Strada Hristo Botev nr. 1, etaj 6, camera 606, București."
     />
 
     <title>Contact | Cabinet psihologic Elena Andrei</title>
+    <meta property="og:title" content="Contact | Cabinet psihologic Elena Andrei" />
 
     <link rel="stylesheet" href="style.css" />
+      <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://alinab868.github.io/Cabinet-individual-Elena_v2/#cabinet",
+  "name": "Cabinet psihologic Elena Andrei",
+  "url": "https://alinab868.github.io/Cabinet-individual-Elena_v2/",
+  "description": "Cabinet psihologic în București, cu servicii de psihoterapie.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Strada Hristo Botev nr. 1, etaj 6, camera 606",
+    "addressLocality": "București",
+    "addressCountry": "RO"
+  },
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=Hristo+Botev+1+Bucuresti",
+  "telephone": "+40 730 183 282",
+  "email": "elena.andrei@deschidemlumea.ro",
+  "areaServed": {
+    "@type": "City",
+    "name": "București"
+  },
+  "inLanguage": "ro-RO"
+}
+    </script>
   </head>
 
   <body>
@@ -34,8 +65,10 @@
           <a href="index.html">Acasă</a>
           <a href="despre_noi.html">Povestea mea</a>
           <a href="servicii.html">Servicii</a>
+          <!-- PAGINI ASCUNSE TEMPORAR. Pentru reactivare, elimină comentariul HTML de mai jos și redirecționările din paginile respective.
           <a href="articole.html">Articole</a>
           <a href="workshopuri.html">Workshopuri</a>
+          -->
           <a href="contact.html" class="active">Contact</a>
         </nav>
 
@@ -88,7 +121,13 @@
               </p>
             </div>
 
-            <form class="appointment-form" action="#" method="post">
+            <form class="appointment-form" id="secure-contact-form" action="https://formsubmit.co/elena.andrei@deschidemlumea.ro" method="POST" accept-charset="UTF-8">
+              <!-- FormSubmit: confirmă adresa destinatarului din primul email primit. -->
+              <input type="hidden" name="_subject" value="Solicitare nouă de pe site – Cabinet Elena Andrei" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_captcha" value="true" />
+              <!-- Câmp capcană antispam, invizibil pentru vizitatori. -->
+              <input type="text" name="_honey" hidden tabindex="-1" autocomplete="off" aria-hidden="true" />
               <!-- NAME -->
               <div class="form-group">
                 <label for="nume">Nume și prenume</label>
@@ -96,8 +135,9 @@
                 <input
                   type="text"
                   id="nume"
-                  name="nume"
+                  name="Nume și prenume"
                   autocomplete="name"
+                  minlength="2" maxlength="100"
                   required
                 />
               </div>
@@ -112,6 +152,7 @@
                     id="email"
                     name="email"
                     autocomplete="email"
+                    maxlength="254"
                     required
                   />
                 </div>
@@ -122,8 +163,8 @@
                   <input
                     type="tel"
                     id="telefon"
-                    name="telefon"
-                    autocomplete="tel"
+                    name="Telefon"
+                    autocomplete="tel" maxlength="25" pattern="[+0-9 ()-]{7,25}" title="Introdu un număr de telefon valid"
                   />
                 </div>
               </div>
@@ -136,7 +177,7 @@
                     <span>(opțional)</span>
                   </label>
 
-                  <input type="date" id="data" name="data" />
+                  <input type="date" id="data" name="Data preferată" />
                 </div>
 
                 <div class="form-group">
@@ -145,7 +186,7 @@
                     <span>(opțional)</span>
                   </label>
 
-                  <select id="interval" name="interval">
+                  <select id="interval" name="Interval preferat">
                     <option value="">Alege un interval</option>
                     <option value="dimineata">Dimineața</option>
                     <option value="pranz">Prânz</option>
@@ -164,12 +205,14 @@
 
                 <textarea
                   id="mesaj"
-                  name="mesaj"
-                  rows="5"
-                  placeholder="Dacă dorești, poți lăsa câteva informații generale despre solicitarea ta."
+                  name="Mesaj"
+                  rows="5" maxlength="1500"
+                  placeholder="Dacă dorești, poți lăsa câteva informații generale despre solicitarea ta. Nu include informații medicale sau alte date sensibile."
                 ></textarea>
               </div>
 
+              <div class="form-group"><label class="privacy-consent"><input type="checkbox" required name="Confirmare informare confidențialitate" value="Da" /><span class="privacy-consent-text">Am citit <a href="confidentialitate.html">politica de confidențialitate</a> și înțeleg că formularul nu este destinat datelor medicale sau sensibile.</span></label></div>
+              <p id="form-error" class="form-note" role="alert" hidden></p>
               <!-- SUBMIT -->
               <button type="submit" class="btn btn-primary">
                 Trimite mesajul

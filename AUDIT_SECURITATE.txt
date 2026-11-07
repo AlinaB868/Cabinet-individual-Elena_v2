@@ -1,0 +1,20 @@
+AUDIT STATIC PRELIMINAR — 07.11.2026
+
+Sursă: arhiva Elena_cabinet_protectie_XSS.zip. Acesta NU este un test de penetrare.
+
+Verificat:
+- script.js: fără innerHTML, eval, document.write sau execuție dinamică de cod.
+- Textele dinamice din workshop sunt inserate prin textContent.
+- CSP meta prezentă în paginile principale: script-src 'self', script-src-attr 'none', object-src 'none'.
+- Formularul trimite către formsubmit.co; validarea client-side nu constituie protecție server-side.
+- Eliminat din pachetul pentru publicare directorul istoric Cabinet_psiho și v2/backup.
+- Eliminat _headers: GitHub Pages nu îl interpretează drept antete HTTP.
+
+LIMITĂRI / DE TESTAT:
+- Nu se poate garanta absența tuturor vulnerabilităților XSS doar din analiză statică.
+- Meta CSP nu suportă frame-ancestors și alte directive exclusiv HTTP.
+- FormSubmit este terț; procesarea și escaparea mesajelor nu sunt sub controlul acestui proiect.
+- GitHub Pages nu permite configurarea liberă a antetelor HTTP; pentru antete CSP/HSTS personalizate folosiți un hosting/CDN care le suportă.
+- Testați navigarea, formularul, CAPTCHA, politica CSP, accesibilitatea și mobilul înainte de publicare.
+- Confirmați emailul destinatarului și revizuiți informarea GDPR.
+- În GitHub Pages, publicați conținutul acestui folder ca rădăcină a site-ului, nu folderul părinte.

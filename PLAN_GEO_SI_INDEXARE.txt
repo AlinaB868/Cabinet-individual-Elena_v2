@@ -1,0 +1,27 @@
+PLAN DE LUCRU – SEO / GEO – Elena Andrei – 07.11.2026
+
+FINALIZAT ÎN PACHETUL V6
+- Am păstrat toate fișierele v5, inclusiv CSP, formularul și optimizările mobile.
+- Am uniformizat URL-ul canonic al paginii principale cu rădăcina site-ului, inclusiv în sitemap.xml.
+- Am creat o notiță separată pentru Elena, un model de monitorizare AI și un checklist de publicare.
+- Nu am adăugat afirmații profesionale neverificate și nu am schimbat scriptul sau hash-urile CSP.
+
+PAȘI DUPĂ PUBLICARE
+1. Deschideți site-ul public și verificați că fișierele sunt accesibile: /robots.txt și /sitemap.xml.
+2. Verificați canonical, index/noindex, linkuri, mobil, consola și funcționarea formularului după activare.
+3. Google Search Console: adăugați proprietatea URL-prefix https://alinab868.github.io/Cabinet-individual-Elena_v2/; verificați dreptul de proprietate prin metoda oferită de Google, apoi trimiteți sitemap.xml. Nu presupuneți că o proprietate de tip Domain pentru github.io este disponibilă.
+4. Bing Webmaster Tools: importați proprietatea din Google Search Console dacă este posibil sau verificați separat; trimiteți sitemap.xml.
+5. IndexNow: opțional, doar după verificarea proprietății și alegerea unui mod sigur de automatizare. Nu promite indexarea.
+6. Monitorizare AI: folosiți CSV-ul inclus; înregistrați data, motorul, formularea exactă, prezența/citarea site-ului și concurenții, fără concluzii pe baza unei singure interogări.
+7. Audit concurenți: comparați doar cabinete identificate și surse verificabile; fără a inventa calificări sau ratinguri.
+8. După confirmarea Elenei: redactați FAQ și actualizați datele structurate pentru a reflecta strict conținutul vizibil.
+
+IMPORTANT
+- Nu există garanție de indexare sau menționare în ChatGPT, Gemini ori Perplexity.
+- Google spune că nu este necesar llms.txt sau schema specială pentru AI Overviews.
+- Nu s-a efectuat conectarea la conturile Google/Bing și nici publicarea pe GitHub.
+
+REFERINȚE
+https://developers.google.com/search/docs/appearance/ai-features
+https://developers.google.com/search/docs/fundamentals/ai-optimization-guide
+https://www.bing.com/indexnow/getstarted

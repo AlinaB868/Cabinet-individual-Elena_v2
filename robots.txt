@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alinab868.github.io/Cabinet-individual-Elena_v2/sitemap.xml

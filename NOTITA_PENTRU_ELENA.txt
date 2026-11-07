@@ -1,0 +1,14 @@
+NOTIȚĂ SEPARATĂ – întrebări pentru Elena (nu blochează lucrul tehnic)
+
+1. Există profil Google Business / Google Maps? Dacă da, cine îl administrează și care este linkul exact? Nu creați profil duplicat.
+2. Denumirea profesională exactă și forma de exercitare a profesiei; numărul de înregistrare/atestat și colegiul profesional, numai dacă Elena aprobă publicarea.
+3. Formări, specializări, metode terapeutice și categoriile de clienți/servicii efectiv oferite.
+4. Program, tarif sau interval tarifar (dacă dorește public), durata ședințelor, online/fizic, modalitatea de programare.
+5. Confirmarea adresei, etajului/camerei, telefonului și emailului public.
+6. Confirmarea și activarea mesajului FormSubmit primit la elena.andrei@deschidemlumea.ro; verificare inbox, spam și eventual filtrare. Testați ulterior livrarea.
+7. Aprobarea textelor profesionale și a unei pagini FAQ înainte de publicare.
+8. Politica de confidențialitate: cine este operatorul, temeiuri, destinatari/furnizori, durate de păstrare, măsuri și transferuri internaționale, evaluate cu un specialist GDPR.
+9. Aprobarea eventualelor fotografii, profiluri profesionale externe și prezența în directoare.
+10. Cine deține acces la Google Search Console, Bing Webmaster Tools și contul GitHub?
+
+Nu solicităm și nu publicăm informații despre clienți/pacienți sau detalii clinice.

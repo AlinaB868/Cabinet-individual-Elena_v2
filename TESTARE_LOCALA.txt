@@ -1,0 +1,8 @@
+CORECTII 07.11.2026
+- Imaginea cabinetului afisata integral, adaptata latimii mobilului.
+- favicon.svg adaugat si declarat in paginile HTML.
+- CSP stricta pastrata, fara unsafe-inline.
+
+IMPORTANT: Eroarea CSP la index.html linia 334 apare probabil din scriptul de live-reload injectat de extensia VS Code Live Server (linia originala 334 este dupa script.js si inchiderea HTML). Nu dezactivati CSP pentru a permite acel script. Pentru test fara injectie, din folder rulati: python -m http.server 8000 si accesati http://localhost:8000/index.html. Actualizati manual pagina dupa modificari.
+
+Verificati Console si afisarea la 390 si 419px. Daca eroarea persista si fara Live Server, trimiteti linia si sursa exacta. Nu s-a facut test automat in browser in aceasta etapa.

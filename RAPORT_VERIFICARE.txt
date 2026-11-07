@@ -1,0 +1,1 @@
+Verificare statică: hash-uri SHA-256 CSP pentru JSON-LD adăugate. Testul automat în Chromium nu a putut rula: mediul blochează navigarea către serverul local (ERR_BLOCKED_BY_ADMINISTRATOR). Nu s-au efectuat teste de viteză Lighthouse sau verificări vizuale mobile. Nu se consideră versiune validată pentru publicare.
